@@ -1,0 +1,47 @@
+.main {
+   width: 100%;
+   min-height: 100vh;
+   padding: 60px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--main-background-color);
+ }
+ 
+ .main h2 {
+   margin-bottom: 32px;
+   font-size: 36px;
+   line-height: 1;
+   color: var(--main-text-color);
+   text-align: left;
+ }
+ 
+ .main p {
+   margin-bottom: 20px;
+   width: 100%;
+   font-size: 20px;
+   line-height: 1.5;
+   color: var(--main-text-color);
+ }
+ .main button{
+  margin-bottom: 20px;
+  width: 30%;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  border: 1px solid var(--main-text-color);
+  padding: 4px 8px;
+  color: var(--main-text-color);
+  cursor: pointer;
+ }
+ .Main{
+  position:absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  
+  }
+  .reload{
+      margin-left:10px;
+  }
